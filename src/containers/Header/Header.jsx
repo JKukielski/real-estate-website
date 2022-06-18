@@ -8,7 +8,7 @@ import Navbar from '../../components/navbar/Navbar'
 const Header = () => {
   return (
     <>
-    <Navbar />
+    
     <div className="app__header">
       <div className="app__header-image">
         

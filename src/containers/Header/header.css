@@ -43,3 +43,97 @@
     top: 50%;
     right: 10%;
 }
+
+@media screen and (max-width: 768px) {
+    .app__header-heading span:first-child{
+        font-size: 35px;
+        position: absolute;
+        top: 42%;
+        right: 5%;
+    }
+    
+    .app__header-heading span:nth-child(2){
+        font-size: 75px;
+        position: absolute;
+        top: 48%;
+        right: 5%;
+    }
+    
+    .app__header-heading span:last-child{
+        font-size: 175px;
+        position: absolute;
+        top: 55%;
+        right: 5%;
+    }
+}
+
+@media screen and (max-width: 426px) {
+
+    .app__header-heading span:first-child{
+        font-size: 24px;
+        position: absolute;
+        top: 44%;
+        right: 40%;
+    }
+    
+    .app__header-heading span:nth-child(2){
+        font-size: 60px;
+        position: absolute;
+        top: 48%;
+        right: 27%;
+    }
+    
+    .app__header-heading span:last-child{
+        font-size: 110px;
+        position: absolute;
+        top: 55%;
+        right: 5%;
+    }
+}
+
+@media screen and (max-width: 376px) {
+
+    .app__header-heading span:first-child{
+        font-size: 22px;
+        position: absolute;
+        top: 45%;
+        right: 41%;
+    }
+    
+    .app__header-heading span:nth-child(2){
+        font-size: 56px;
+        position: absolute;
+        top: 48%;
+        right: 27%;
+    }
+    
+    .app__header-heading span:last-child{
+        font-size: 103px;
+        position: absolute;
+        top: 55%;
+        right: 1.5%;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .app__header-heading span:first-child{
+        font-size: 15px;
+        position: absolute;
+        top: 47%;
+        right: 41%;
+    }
+    
+    .app__header-heading span:nth-child(2){
+        font-size: 40px;
+        position: absolute;
+        top: 50%;
+        right: 27%;
+    }
+    
+    .app__header-heading span:last-child{
+        font-size: 88px;
+        position: absolute;
+        top: 55%;
+        right: 1.5%;
+    }
+}

@@ -14,6 +14,13 @@
     align-items: center;
 }
 
+.app__social svg {
+    transition: 0.25s ease-in-out;
+}
+
+.app__social svg:hover {
+    font-size: 32px;
+}
 
 @media screen and (max-width: 426px) {
     .app__social {

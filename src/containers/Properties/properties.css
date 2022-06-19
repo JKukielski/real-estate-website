@@ -1,0 +1,24 @@
+.app__featured-properties {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+.app__featured-properties__listings{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-white);
+
+    padding: 4rem 0;
+}
+
+.app__featured-properties_heading {
+    margin-top: 3rem;
+    font-family: var(--font-primary);
+    color: var(--color-dark);
+}

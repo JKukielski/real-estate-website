@@ -21,6 +21,7 @@
 .app__header-heading {
     font-family: var(--font-primary);
     color: var(--color-white);
+    animation: transitionIn 1s ease-in-out;
 }
 
 .app__header-heading span:first-child{
@@ -135,5 +136,14 @@
         position: absolute;
         top: 55%;
         right: 1.5%;
+    }
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
     }
 }

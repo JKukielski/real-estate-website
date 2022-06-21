@@ -40,7 +40,7 @@ const PropertyListing = ({ slides, price, address }) => {
         <div/>
         <p className="property__listing-address">{address}</p>
       </div>
-
+      <div className="property__listing-details_link"><a href="#">View property</a></div>
     </div>
   )
 }

@@ -14,11 +14,22 @@
     align-items: center;
     background-color: var(--color-white);
 
-    padding: 4rem 0;
+    padding: 2.5rem 0;
 }
 
 .app__featured-properties_heading {
     margin-top: 3rem;
     font-family: var(--font-primary);
     color: var(--color-dark);
+}
+
+@media screen and (max-width: 426px) {
+    .app__featured-properties_heading {
+        font-size: 26px;
+        padding: 0 4rem;
+        text-align: center;
+    }
+    .app__featured-properties__listings {
+        padding: 2rem 0;
+    }
 }

@@ -1,0 +1,48 @@
+.app__selling-points {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 4rem;
+}
+
+.app__selling-points_heading {
+    font-family: var(--font-primary);
+    color: var(--color-dark);
+    margin-bottom: 3rem;
+}
+
+.app__selling-points_feature {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 3rem;
+}
+
+.app__selling-points_feature:nth-child(3) {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.app__selling-points_feature img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+    -webkit-box-shadow: 18px 11px 49px -10px rgba(21, 22, 35, 1);
+    -moz-box-shadow: 18px 11px 49px -10px rgba(21, 22, 35, 1);
+    box-shadow: 18px 11px 49px -10px rgba(21, 22, 35, 1);
+}
+
+.app__selling-points_content {
+    text-align: right;
+}
+
+.app__selling-points_feature:nth-child(3) .app__selling-points_content {
+    text-align: left;
+}

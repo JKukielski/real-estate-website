@@ -23,7 +23,7 @@
 
 .left-arrow {
     position: absolute;
-    z-index: 999;
+    z-index: 998;
     top: 50%;
     left: 5px;
     color: var(--color-white);
@@ -34,7 +34,7 @@
 
 .right-arrow {
     position: absolute;
-    z-index: 999;
+    z-index: 998;
     top: 50%;
     right: 5px;
     color: var(--color-white);

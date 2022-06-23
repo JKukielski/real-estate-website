@@ -4,13 +4,13 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 3rem 4rem;
+    padding: 1rem 4rem;
 }
 
 .app__selling-points_heading {
     font-family: var(--font-primary);
     color: var(--color-dark);
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 .app__selling-points_feature {
@@ -41,8 +41,96 @@
 
 .app__selling-points_content {
     text-align: right;
+    width: 40%;
 }
 
 .app__selling-points_feature:nth-child(3) .app__selling-points_content {
     text-align: left;
+}
+
+.app__selling-points_content-heading {
+    font-family: var(--font-primary);
+    color: var(--color-cream);
+    font-size: 36px;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.app__selling-points_content-heading::after {
+    content: '';
+    height: 1px;
+    width: 50%;
+    position: absolute;
+    background-color: var(--color-dark);
+    bottom: -15px;
+    right: 0
+}
+
+.app__selling-points_feature:nth-child(3) .app__selling-points_content-heading::after {
+    content: '';
+    height: 1px;
+    width: 50%;
+    position: absolute;
+    background-color: var(--color-dark);
+    bottom: -15px;
+    left: 0;
+}
+
+.app__selling-points_content-description {
+    font-family: var(--font-secondary);
+}
+
+@media screen and (max-width: 426px) {
+
+    .app__selling-points {
+        padding: 0 4rem;
+    }
+    
+    .app__selling-points_heading {
+        margin-bottom: 3rem;
+    }
+    .app__selling-points_feature {
+        flex-direction: column;
+    }
+
+    .app__selling-points_feature:nth-child(3){
+        flex-direction: column;
+    }
+
+    .app__selling-points_feature:nth-child(3) .app__selling-points_content {
+        text-align: center;
+    }
+
+    .app__selling-points_content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .app__selling-points_feature img {
+        width: 270px;
+        height: 370px;
+        margin-bottom: 3rem;
+    }
+
+    .app__selling-points_content-heading::after {
+        bottom: -15px;
+        right: 25%;
+    }
+    .app__selling-points_feature:nth-child(3) .app__selling-points_content-heading::after{
+        bottom: -15px;
+        left: 25%;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .app__selling-points_content-heading {
+        font-size: 28px;
+    }
+    .app__selling-points_content-description {
+        font-size: 14px;
+    }
+    .app__selling-points_feature img {
+        width: 230px;
+        height: 330px;
+    }
 }

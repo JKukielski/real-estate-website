@@ -98,11 +98,14 @@
 
     .app__navbar-smallscreen {
         display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }
 @media screen and (max-width: 768px) {
     .app__navbar {
         padding: 2rem 4rem;
+        height: 100px;
     }
 }
 

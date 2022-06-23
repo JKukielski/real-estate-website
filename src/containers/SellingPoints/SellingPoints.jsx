@@ -10,24 +10,21 @@ const sellingPoints = () => {
         <img src={images.image7} alt="abc" />
         <div className="app__selling-points_content">
           <h2 className="app__selling-points_content-heading">Luxurious properties</h2>
-          <div className='content-split'/>
-          <p className="app__selling-points_content-description">Our agency offers only the most luxurious properties available in the state</p>
+          <p className="app__selling-points_content-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore molestiae assumenda adipisci numquam ratione expedita! Nesciunt exercitationem animi, odit atque facilis amet, libero, tempore laudantium beatae voluptate repudiandae voluptatibus quae.</p>
         </div>
       </div>
       <div className="app__selling-points_feature">
         <img src={images.image6} alt="abc" />
         <div className="app__selling-points_content">
-          <h2 className="app__selling-points_content-heading">Luxurious properties</h2>
-          <div className='content-split'/>
-          <p className="app__selling-points_content-description">Our agency offers only the most luxurious properties available in the state</p>
+          <h2 className="app__selling-points_content-heading">Excellent Service</h2>
+          <p className="app__selling-points_content-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas corrupti consequuntur veniam deleniti delectus numquam mollitia facilis, impedit aspernatur amet soluta reprehenderit corporis velit praesentium maiores vero provident esse! Suscipit.</p>
         </div>
       </div>
       <div className="app__selling-points_feature">
         <img src={images.image16} alt="abc" />
         <div className="app__selling-points_content">
-          <h2 className="app__selling-points_content-heading">Luxurious properties</h2>
-          <div className='content-split'/>
-          <p className="app__selling-points_content-description">Our agency offers only the most luxurious properties available in the state</p>
+          <h2 className="app__selling-points_content-heading">Wonderful Locations</h2>
+          <p className="app__selling-points_content-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem enim eius reiciendis vero, officia aliquam porro adipisci molestias animi velit amet ut voluptates laudantium illo libero culpa ipsa tempore labore.</p>
         </div>
       </div>
     </div>

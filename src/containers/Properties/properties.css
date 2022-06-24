@@ -21,11 +21,12 @@
     margin-top: 3rem;
     font-family: var(--font-primary);
     color: var(--color-dark);
+    font-size: 40px;
 }
 
 @media screen and (max-width: 426px) {
     .app__featured-properties_heading {
-        font-size: 26px;
+        font-size: 28px;
         padding: 0 4rem;
         text-align: center;
     }

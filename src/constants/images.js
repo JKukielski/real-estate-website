@@ -23,6 +23,7 @@ import image27 from "../assets/image-27.jpg";
 import image28 from "../assets/image-28.jpg";
 import image29 from "../assets/image-29.jpg";
 import image30 from "../assets/image-30.jpg";
+import quotes from "../assets/quotes.png";
 
 export default {
   image1,
@@ -50,4 +51,5 @@ export default {
   image28,
   image29,
   image30,
+  quotes,
 };

@@ -1,0 +1,20 @@
+.app__team-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-dark);
+    padding: 1rem 4rem;
+}
+
+.app__team-heading {
+    font-family: var(--font-primary);
+    color: var(--color-cream);
+    margin: 3rem 0 5rem 0;
+    font-size: 40px;
+}
+
+.app__team-members {
+    display: flex;
+    flex-wrap: wrap;
+}

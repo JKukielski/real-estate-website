@@ -1,0 +1,32 @@
+.employee__container {
+    display: flex;
+    width: 40%;
+    margin: 1rem;
+}
+
+.employee__container img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+
+    -webkit-box-shadow: 18px 11px 49px -10px rgba(21, 22, 35, 1);
+    -moz-box-shadow: 18px 11px 49px -10px rgba(21, 22, 35, 1);
+    box-shadow: 18px 11px 49px -10px rgba(21, 22, 35, 1);
+}
+
+.employee__description {
+
+}
+
+.employee__name {
+
+}
+
+.employee__position {
+
+}
+
+.employee__bio {
+
+}

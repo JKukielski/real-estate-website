@@ -41,10 +41,21 @@
     line-height: 32px;
 }
 
+.app__footer-container_content-contact h2, .app__footer-container_content-working h2 {
+    color: var(--color-cream);
+}
+
+
 .footer__logo {
     font-family: var(--font-primary);
     font-size: 32px;
     margin-bottom: 50px;
+}
+
+.app__footer-social {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .app__footer-container_copyright {
@@ -52,35 +63,25 @@
     display: flex;
     justify-content: center ;
     margin-top: 30px;
+    text-align: center;
 }
 
+@media screen and (max-width: 1025px) {
+    .app__footer-container_content-contact, .app__footer-container_content-company, .app__footer-container_content-working {
+        width: 220px;
+        padding: 0;
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 769px) {
 
 
-/* <div className="app__footer">
-<div className="app__footer-container">
-  <div className="app__footer-container_content">
-    <div className="app__footer-container_content-contact">
-      <p className="footer__address"></p>
-      <p className="footer__number"></p>
-      <p className="footer__number"></p>
-    </div>
-    <div className="app__footer-container_content-company">
-      <Link to="/" className="app__navbar-logo">
-        <a className="logo" href="/">
-          J&K PROPERTIES
-        </a>
-      </Link>
-      <p></p>
-      <div className="app__">
-        <AiFillInstagram color="#FFF" fontSize={27} cursor="pointer" />
-        <AiFillFacebook color="#FFF" fontSize={27} cursor="pointer" />
-        <AiOutlineTwitter color="#FFF" fontSize={27} cursor="pointer" />
-      </div>
-    </div>
-    <div className="app__footer-container_content-working"></div>
-  </div>
-  <div className="app__footer-container_copyright">
-    <p></p>
-  </div>
-</div>
-</div> */
+    .app__footer-container_content {
+       flex-direction: column;
+    }
+
+    .app__footer-container_content-working {
+        height: 150px
+    }
+}

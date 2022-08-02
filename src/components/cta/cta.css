@@ -50,11 +50,38 @@
 
 }
 
-/* 
-      <input
-        type="text"
-        placeholder="Enter your email address to subscribe"
-      />
-      <button className="app__cta-input_btn">Subscribe</button>
-    </div>
-  </div> */
+@media screen and (max-width: 426px) {
+    .app__cta {
+        text-align: center;
+    }
+
+    .app__cta-heading {
+        font-size: 28px;
+    }
+
+    .app__cta-input_container input {
+        width: 80%;
+        font-size: 10px;
+    }
+
+    .app__cta-input_container button {
+        width:  80px;
+        height: 40px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .app__cta-input_container {
+        flex-direction: column;
+    }
+
+    .app__cta-input_container input {
+        width: 100%;
+    }
+
+    .app__cta-input_container button {
+        width: 100%;
+    }
+    
+}

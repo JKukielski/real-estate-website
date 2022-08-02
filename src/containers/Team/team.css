@@ -23,5 +23,16 @@
 @media screen and (max-width: 426px) {
     .app__team-heading {
         margin: 3rem 0 2rem 0;
+        font-size: 28px;
     }
+
+
+}
+
+@media screen and (max-width: 376px) {
+    .app__team-heading {
+        margin: 3rem 0 0 0;
+        font-size: 28px;
+    }
+
 }

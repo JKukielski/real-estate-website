@@ -1,0 +1,86 @@
+.app__footer {
+    width: 100%;
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    font-family: var(--font-secondary);
+    padding: 3rem 0;
+}
+
+.app__footer-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 4rem;
+}
+
+.app__footer-container_content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.app__footer-container_content-contact, .app__footer-container_content-company, .app__footer-container_content-working {
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.app__footer-container_content-company p {
+    margin: 20px 0;
+}
+
+.app__footer-container_content-contact, .app__footer-container_content-working {
+    padding-top: 20px;
+    line-height: 32px;
+}
+
+.footer__logo {
+    font-family: var(--font-primary);
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.app__footer-container_copyright {
+    width: 100%;
+    display: flex;
+    justify-content: center ;
+    margin-top: 30px;
+}
+
+
+
+/* <div className="app__footer">
+<div className="app__footer-container">
+  <div className="app__footer-container_content">
+    <div className="app__footer-container_content-contact">
+      <p className="footer__address"></p>
+      <p className="footer__number"></p>
+      <p className="footer__number"></p>
+    </div>
+    <div className="app__footer-container_content-company">
+      <Link to="/" className="app__navbar-logo">
+        <a className="logo" href="/">
+          J&K PROPERTIES
+        </a>
+      </Link>
+      <p></p>
+      <div className="app__">
+        <AiFillInstagram color="#FFF" fontSize={27} cursor="pointer" />
+        <AiFillFacebook color="#FFF" fontSize={27} cursor="pointer" />
+        <AiOutlineTwitter color="#FFF" fontSize={27} cursor="pointer" />
+      </div>
+    </div>
+    <div className="app__footer-container_content-working"></div>
+  </div>
+  <div className="app__footer-container_copyright">
+    <p></p>
+  </div>
+</div>
+</div> */

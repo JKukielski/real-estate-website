@@ -1,0 +1,60 @@
+.app__cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 4rem;
+}
+
+.app__cta-heading {
+    font-family: var(--font-primary);
+    color: var(--color-dark);
+    margin: 3rem 0 3rem 0;
+    font-size: 40px;
+}
+
+.app__cta-input_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.app__cta-input_container input {
+    width: 50%;
+    height: 40px;
+    padding-left: 10px;
+    font-family: var(--font-secondary);
+    border: none;
+
+    -webkit-box-shadow: 18px 11px 49px -10px rgba(21, 22, 35, 1);
+    -moz-box-shadow: 18px 11px 49px -10px rgba(21, 22, 35, 1);
+    box-shadow: 18px 11px 49px -10px rgba(21, 22, 35, 1);
+
+}
+
+.app__cta-input_container button {
+    width:  120px;
+    height: 40px;
+    padding: 12px;
+    font-family: var(--font-secondary);
+    background-color: var(--color-cream);
+    border: none;
+    border-radius: 0 5px 5px 0;
+    color: var(--color-white);
+    cursor: pointer;
+    -webkit-box-shadow: 18px 11px 49px -10px rgba(21, 22, 35, 1);
+    -moz-box-shadow: 18px 11px 49px -10px rgba(21, 22, 35, 1);
+    box-shadow: 18px 11px 49px -10px rgba(21, 22, 35, 1);
+
+}
+
+/* 
+      <input
+        type="text"
+        placeholder="Enter your email address to subscribe"
+      />
+      <button className="app__cta-input_btn">Subscribe</button>
+    </div>
+  </div> */

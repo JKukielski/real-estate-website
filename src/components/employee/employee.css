@@ -2,31 +2,48 @@
     display: flex;
     width: 40%;
     margin: 1rem;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .employee__container img {
-    width: 350px;
+    width: 100%;
     height: 250px;
     object-fit: cover;
     border-radius: 5px;
+    margin-bottom: 20px;
 
     -webkit-box-shadow: 18px 11px 49px -10px rgba(21, 22, 35, 1);
     -moz-box-shadow: 18px 11px 49px -10px rgba(21, 22, 35, 1);
     box-shadow: 18px 11px 49px -10px rgba(21, 22, 35, 1);
 }
 
-.employee__description {
-
-}
-
 .employee__name {
-
+    font-family: var(--font-primary);
+    color: var(--color-cream);
 }
 
 .employee__position {
-
+    font-family: var(--font-primary);
+    color: var(--color-cream);
 }
 
 .employee__bio {
+    font-family: var(--font-secondary);
+    color: var(--color-white);
+}
 
+@media screen and (max-width: 426px) {
+    .employee__container {
+        width: 90%;
+    }
+    
+    .employee__position {
+        margin: 6px 0 10px 0;
+    }
+
+    .employee__container img {
+        object-fit: contain;
+        margin: 0;
+    }
 }

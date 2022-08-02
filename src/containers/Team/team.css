@@ -17,4 +17,11 @@
 .app__team-members {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (max-width: 426px) {
+    .app__team-heading {
+        margin: 3rem 0 2rem 0;
+    }
 }
